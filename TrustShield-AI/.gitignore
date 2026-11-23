@@ -1,0 +1,17 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java build files
+**/target/
+*.class
+
+# Frontend dependencies and builds
+**/node_modules/
+**/dist/
+**/build/
+
+# Local database
+sandbox_db.json
